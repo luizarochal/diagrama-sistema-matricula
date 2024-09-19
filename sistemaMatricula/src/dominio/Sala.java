@@ -14,8 +14,17 @@ public class Sala {
         this.turmasPresenciais = turmasPresenciais;
     }
 
+    public Sala(int numeroSala, int capacidade){
+        this.numeroSala = numeroSala;
+        this.capacidade = capacidade;
+    }
+
     public int getCapacidade() {
         return capacidade;
+    }
+
+    public int getNumeroSala() {
+        return numeroSala;
     }
 
 }
